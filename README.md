@@ -14,5 +14,5 @@ ATMEGA328P MCU
 
 ## Preview
 ![PCB 3D Render](images/3d/3d.png)
-![PCB 3D Render](images/final/tracks.png)
-![PCB 3D Render](images/final/blink_led2.png)
+![PCB 3D Render](images/final/tracks.jpg)
+![PCB 3D Render](images/final/blink_led2.jpg)
