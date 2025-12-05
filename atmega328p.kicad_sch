@@ -1,0 +1,189 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0b009b5d-0af9-4dab-b19b-cab117cec093")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 172.72 31.75) (xy 190.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039dac28-ef4e-4d86-b2d4-9f05efdc9023")
+	)
+	(wire
+		(pts
+			(xy 91.44 25.4) (xy 172.72 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd53c0a-fd2c-4b45-b240-47358258f475")
+	)
+	(wire
+		(pts
+			(xy 147.32 36.83) (xy 190.5 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433a0efc-c331-4f44-aa7c-a40f4bcfe554")
+	)
+	(wire
+		(pts
+			(xy 91.44 31.75) (xy 147.32 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876a65ae-0e63-46a0-8387-396ff5137378")
+	)
+	(wire
+		(pts
+			(xy 147.32 31.75) (xy 147.32 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8f24e8-8546-40d9-b170-6bd291c37d1e")
+	)
+	(wire
+		(pts
+			(xy 172.72 25.4) (xy 172.72 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdef4215-9fb0-4c8b-b1f7-128db1db422e")
+	)
+	(sheet
+		(at 190.5 26.67)
+		(size 58.42 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "61ad24da-339e-4b83-a8e2-045b50b9fdb1")
+		(property "Sheetname" "signal"
+			(at 190.5 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "signal.kicad_sch"
+			(at 190.5 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 190.5 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "94c8bde7-c0ed-4323-8542-93b3a46aa067")
+		)
+		(pin "+5V" input
+			(at 190.5 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "578affa6-a5c3-42f2-8bb2-6588fcabc836")
+		)
+		(instances
+			(project "atmega328p"
+				(path "/0b009b5d-0af9-4dab-b19b-cab117cec093"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 22.86)
+		(size 59.69 66.04)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d45599c4-9b4c-490a-84df-b63930fef910")
+		(property "Sheetname" "power"
+			(at 31.75 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 31.75 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" output
+			(at 91.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d246f8c2-c74f-4de1-82a0-7562b0bb7760")
+		)
+		(pin "+5V" output
+			(at 91.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3f6c90ba-c3fd-47bf-8044-6ea1b16b4f7b")
+		)
+		(instances
+			(project "atmega328p"
+				(path "/0b009b5d-0af9-4dab-b19b-cab117cec093"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
