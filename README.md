@@ -5,6 +5,11 @@ A custom development board based on the ATMEGA328P chip
 ## Features
 ATMEGA328P MCU
 
+## Preview
+![PCB 3D Render](images/3d/3d.png)
+![PCB 3D Render](images/final/tracks.jpg)
+![PCB 3D Render](images/final/blink_led2.jpg)
+
 ## Schematic
 ![Schematic](images/schematic/power.png)
 ![Schematic](images/schematic/mcu.png)
@@ -12,7 +17,3 @@ ATMEGA328P MCU
 ## PCB Layout
 ![Layout](images/layout/layout.png)
 
-## Preview
-![PCB 3D Render](images/3d/3d.png)
-![PCB 3D Render](images/final/tracks.jpg)
-![PCB 3D Render](images/final/blink_led2.jpg)
