@@ -16,5 +16,5 @@ ATMEGA328P MCU
 ![Schematic](images/schematic/mcu.png)
 
 ## PCB Layout
-![Layout](images/layout/layout.png)
+![Layout](images/layout/atmega328p-pcb-layout.jpg)
 
